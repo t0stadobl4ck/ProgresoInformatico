@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional de Darwin Vélez Matos - Ingeniero técnico especializado en Linux, PHP y Automatización">
+    <meta name="author" content="Darwin Vélez Matos">
+    <meta name="theme-color" content="#000000">
+    
+    <title>Darwin Vélez Matos | Linux & PHP Engineer</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Skip link para accesibilidad -->
+    <a href="#main-content" class="skip-link" aria-label="Saltar al contenido principal">Saltar al contenido</a>
+    
+    <!-- Header / Hero Section -->
+    <header class="hero" id="inicio" role="banner">
+        <div class="container">
+            <nav class="navbar" aria-label="Navegación principal">
+                <div class="nav-logo">
+                    <svg class="duck-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <path d="M4 15c0-2 1-4 3-4h6c2 0 3 2 3 4v2c0 1-1 2-2 2H6c-1 0-2-1-2-2v-2z"/>
+                        <path d="M16 11h3c1 0 2 1 2 2v1c0 1-1 2-2 2h-2"/>
+                        <circle cx="8" cy="15.5" r="0.8" fill="currentColor"/>
+                        <path d="M6 7c0-1.5 1-2.5 2.5-2.5S11 5.5 11 7"/>
+                    </svg>
+                    <span class="nav-name">DVM</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#sobre-mi" class="nav-link" aria-label="Ir a la sección Sobre Mí">Sobre Mí</a>
+                    <a href="#proyectos" class="nav-link" aria-label="Ir a la sección Proyectos">Proyectos</a>
+                    <a href="#contacto" class="nav-link" aria-label="Ir a la sección Contacto">Contacto</a>
+                </div>
+            </nav>
+            
+            <div class="hero-content">
+                <p class="hero-greeting" aria-label="Saludo">> Hola, soy</p>
+                <h1 class="hero-title">Darwin Vélez Matos</h1>
+                <h2 class="hero-subtitle">Soporte Técnico Linux | Desarrollo PHP | Automatización</h2>
+                
+                <p class="hero-bio">
+                    Ingeniero técnico con experiencia en administración de sistemas Linux, 
+                    desarrollo backend con PHP, y automatización de procesos. Apasionado por 
+                    la privacidad, el código abierto y la resolución de problemas complejos.
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="#proyectos" class="btn btn-primary" aria-label="Ver proyectos destacados">
+                        Ver Proyectos
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M12 5v14M5 12l7 7 7-7"/>
+                        </svg>
+                    </a>
+                    <a href="#contacto" class="btn btn-secondary" aria-label="Contactar por correo electrónico">
+                        Contactar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Sección Sobre Mí -->
+        <section class="section about" id="sobre-mi" aria-labelledby="about-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">~/sobre-mi</span>
+                    <h2 class="section-title" id="about-title">Perfil Profesional</h2>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-description">
+                        <p>
+                            Soy un ingeniero técnico especializado en la intersección entre la administración 
+                            de sistemas Linux y el desarrollo de software. Mi experiencia se centra en mantener 
+                            infraestructuras robustas con Debian/Ubuntu, crear aplicaciones backend escalables 
+                            con PHP (Laravel y Yii2), y desarrollar soluciones de automatización que optimizan 
+                            procesos operativos.
+                        </p>
+                        <p>
+                            Me apasiona profundamente el ecosistema del código abierto, la ciberseguridad 
+                            aplicada y la electrónica práctica. Creo firmemente que la tecnología debe ser 
+                            accesible, segura y respetuosa con la privacidad de los usuarios. Busco 
+                            constantemente nuevos desafíos que requieran pensamiento analítico y soluciones 
+                            creativas.
+                        </p>
+                        <p>
+                            Mi enfoque de trabajo combina rigor técnico con pragmatismo: entender el problema, 
+                            elegir la herramienta adecuada (que a menudo es un script de bash o una línea de 
+                            Perl), y documentar todo correctamente para que el conocimiento sea compartido.
+                        </p>
+                    </div>
+                    
+                    <div class="skills-container">
+                        <h3 class="skills-title">Habilidades Técnicas</h3>
+                        <div class="skills-grid" role="list">
+                            <div class="skill-card" role="listitem">
+                                <span class="skill-category">Sistemas</span>
+                                <ul class="skill-list">
+                                    <li>Linux (Debian/Ubuntu)</li>
+                                    <li>Docker</li>
+                                    <li>Shell Scripting</li>
+                                    <li>Nginx</li>
+                                </ul>
+                            </div>
+                            <div class="skill-card" role="listitem">
+                                <span class="skill-category">Desarrollo</span>
+                                <ul class="skill-list">
+                                    <li>PHP (Laravel, Yii2)</li>
+                                    <li>Node.js</li>
+                                    <li>Perl</li>
+                                </ul>
+                            </div>
+                            <div class="skill-card" role="listitem">
+                                <span class="skill-category">Herramientas</span>
+                                <ul class="skill-list">
+                                    <li>Git</li>
+                                    <li>Ansible</li>
+                                    <li>Bash</li>
+                                    <li>PostgreSQL</li>
+                                </ul>
+                            </div>
+                            <div class="skill-card" role="listitem">
+                                <span class="skill-category">Conceptos</span>
+                                <ul class="skill-list">
+                                    <li>Ciberseguridad básica</li>
+                                    <li>Privacidad de datos</li>
+                                    <li>Electrónica/Robótica</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección Proyectos -->
+        <section class="section projects" id="proyectos" aria-labelledby="projects-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">~/proyectos</span>
+                    <h2 class="section-title" id="projects-title">Proyectos Destacados</h2>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Proyecto 1 -->
+                    <article class="project-card" role="article">
+                        <div class="project-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M3 17l6-6 4 4 8-8"/>
+                                <path d="M14 7h7v7"/>
+                            </svg>
+                        </div>
+                        <h3 class="project-title">Sistema de Monitoreo Linux</h3>
+                        <p class="project-description">
+                            Sistema de monitoreo y alertas para servidores Linux. Utiliza shell scripting 
+                            para recolección de métricas, con dashboard PHP y notificaciones automáticas 
+                            por correo y Telegram.
+                        </p>
+                        <div class="project-tech" aria-label="Tecnologías utilizadas">
+                            <span class="tech-tag">Bash</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">Nginx</span>
+                            <span class="tech-tag">SQLite</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Ver código en GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                </svg>
+                                GitHub
+                            </a>
+                            <a href="https://codeberg.org/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Ver código en Codeberg">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                </svg>
+                                Codeberg
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- Proyecto 2 -->
+                    <article class="project-card" role="article">
+                        <div class="project-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                <path d="M2 17l10 5 10-5"/>
+                                <path d="M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3 class="project-title">API Backend Laravel + Yii2</h3>
+                        <p class="project-description">
+                            API RESTful para gestión de inventario y facturación. Implementada con Laravel 
+                            para la lógica principal y Yii2 para módulos heredados. Incluye autenticación 
+                            JWT, rate limiting y documentación OpenAPI.
+                        </p>
+                        <div class="project-tech" aria-label="Tecnologías utilizadas">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">Yii2</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Ver código en GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- Proyecto 3 -->
+                    <article class="project-card" role="article">
+                        <div class="project-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="4" y="4" width="16" height="16" rx="2"/>
+                                <path d="M9 9h6v6H9z"/>
+                                <path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/>
+                            </svg>
+                        </div>
+                        <h3 class="project-title">Framework de Automatización DevOps</h3>
+                        <p class="project-description">
+                            Conjunto de scripts y playbooks de Ansible para automatizar despliegues, 
+                            configuraciones de servidores y tareas de mantenimiento. Incluye templates 
+                            para Docker Compose y configuraciones de Nginx optimizadas.
+                        </p>
+                        <div class="project-tech" aria-label="Tecnologías utilizadas">
+                            <span class="tech-tag">Ansible</span>
+                            <span class="tech-tag">Bash</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Perl</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Ver código en GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                </svg>
+                                GitHub
+                            </a>
+                            <a href="https://codeberg.org/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Ver código en Codeberg">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                </svg>
+                                Codeberg
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección Contacto -->
+        <section class="section contact" id="contacto" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">~/contacto</span>
+                    <h2 class="section-title" id="contact-title">Contacto</h2>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <p class="contact-intro">
+                            ¿Tienes un proyecto interesante, necesitas soporte técnico o simplemente 
+                            quieres hablar sobre Linux y tecnología? ¡No dudes en escribirme!
+                        </p>
+                        
+                        <div class="contact-methods">
+                            <a href="mailto:darw8n@proton.me" class="contact-method" aria-label="Enviar correo electrónico">
+                                <div class="contact-icon" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                        <path d="M22 6l-10 7L2 6"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Email</span>
+                                    <span class="contact-value">darw8n@proton.me</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://github.com/t0stadobl4ck/ProgresoInformatico" class="contact-method" target="_blank" rel="noopener noreferrer" aria-label="Ver perfil de GitHub">
+                                <div class="contact-icon" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">GitHub</span>
+                                    <span class="contact-value">https://github.com/t0stadobl4ck/ProgresoInformatico</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://codeberg.org/tracx/ProgresoInformatico" class="contact-method" target="_blank" rel="noopener noreferrer" aria-label="Ver perfil de Codeberg">
+                                <div class="contact-icon" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Codeberg</span>
+                                    <span class="contact-value">https://codeberg.org/tracx/ProgresoInformatico</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://wa.me/573247348118?text=Hola%20gracias%20por%20tu%20interés" class="contact-method" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+                                <div class="contact-icon" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">WhatsApp</span>
+                                    <span class="contact-value">+57 324748118</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="community-section" aria-label="Comunidad">
+                        <div class="community-card">
+                            <div class="community-icon" aria-hidden="true">
+                                <svg class="duck-icon-large" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                    <path d="M4 15c0-2 1-4 3-4h6c2 0 3 2 3 4v2c0 1-1 2-2 2H6c-1 0-2-1-2-2v-2z"/>
+                                    <path d="M16 11h3c1 0 2 1 2 2v1c0 1-1 2-2 2h-2"/>
+                                    <circle cx="8" cy="15.5" r="0.8" fill="currentColor"/>
+                                    <path d="M6 7c0-1.5 1-2.5 2.5-2.5S11 5.5 11 7"/>
+                                    <path d="M7 4c0-1 .5-1.5 1.5-1.5S10 3 10 4"/>
+                                </svg>
+                            </div>
+                            <h3 class="community-title">Echale un ojo a la pagína de progreso informatico</h3>
+                            <p class="community-description">
+                                Observa nuestra comunidad de Telegram donde compartimos conocimiento sobre 
+                                Linux, scripting, ciberseguridad y mucho más. Un espacio para aprender 
+                                y ayudar en comunidad.
+                            </p>
+                            <a href="https://t.me/+K9gfGE7Nq9ZiNmQ5" class="btn btn-community" target="_blank" rel="noopener noreferrer" aria-label="Unirse al grupo de Telegram Pato Linuxero">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0a12 12 0 00-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                                </svg>
+                                Ver canal
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <svg class="duck-icon-footer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                    <path d="M4 15c0-2 1-4 3-4h6c2 0 3 2 3 4v2c0 1-1 2-2 2H6c-1 0-2-1-2-2v-2z"/>
+                    <path d="M16 11h3c1 0 2 1 2 2v1c0 1-1 2-2 2h-2"/>
+                    <circle cx="8" cy="15.5" r="0.8" fill="currentColor"/>
+                    <path d="M6 7c0-1.5 1-2.5 2.5-2.5S11 5.5 11 7"/>
+                </svg>
+                <span class="footer-text">&copy; 2024 Darwin Vélez Matos</span>
+            </div>
+            <div class="footer-right">
+                <span class="footer-love">Hecho con ❤️ y Linux</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
