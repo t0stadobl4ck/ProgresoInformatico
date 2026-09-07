@@ -22,13 +22,17 @@ from pathlib import Path
 from datetime import datetime
 
 # Intentar importar duckduckgo-search
+# Intentar importar ddgs (nueva versión de duckduckgo-search)
 try:
-    from duckduckgo_search import DDGS
+    from ddgs import DDGS
     DDGS_AVAILABLE = True
 except ImportError:
-    DDGS_AVAILABLE = False
-    print("⚠️ duckduckgo-search no está instalado. La búsqueda web no funcionará.")
-    print("Instala con: pip install duckduckgo-search")
+    try:
+        from duckduckgo_search import DDGS
+        DDGS_AVAILABLE = True
+    except ImportError:
+        DDGS_AVAILABLE = False
+        print("⚠️ ddgs no instalado. Ejecuta: pip install ddgs")
 
 # ----------------------------------------------------------------------
 # Configuración de modelos
