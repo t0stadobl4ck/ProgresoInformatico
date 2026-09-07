@@ -1,0 +1,13 @@
+
+---
+
+## 🚀 Publicar en GitHub
+
+```bash
+cd ~/Plantillas
+git init
+git add orquestador.py orquestador.sh README.md
+git commit -m "🤖 Orquestador D3 1A - LM Studio Chat"
+# (Crea el repositorio en GitHub y luego)
+git remote add origin https://github.com/TU_USUARIO/orquestador-d3-1a.git
+git push -u origin main
