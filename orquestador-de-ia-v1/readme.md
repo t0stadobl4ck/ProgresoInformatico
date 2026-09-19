@@ -18,7 +18,4 @@ Interfaz gráfica para LM Studio con orquestador inteligente de modelos y búsqu
 - LM Studio corriendo en `http://localhost:1234`
 - Dependencias: `requests.txt``
 
-Instalación:
 
-```bash
-pip install requests duckduckgo-search
