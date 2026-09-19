@@ -16,7 +16,7 @@ Interfaz gráfica para LM Studio con orquestador inteligente de modelos y búsqu
 
 - Python 3.8+
 - LM Studio corriendo en `http://localhost:1234`
-- Dependencias: `requests`, `duckduckgo-search`
+- Dependencias: `requests.txt``
 
 Instalación:
 
